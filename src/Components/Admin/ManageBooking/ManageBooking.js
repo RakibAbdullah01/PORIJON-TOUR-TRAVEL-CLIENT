@@ -75,6 +75,7 @@ const ManageBooking = () => {
                         <th>Email</th>
                         <th>Package</th>
                         <th>Status</th>
+                        <th>Update</th>
                         <th>Action</th>
                     </tr>
                 </thead>
@@ -85,8 +86,9 @@ const ManageBooking = () => {
                         <td>{book.name}</td>
                         <td>{book.email}</td>
                         <td>{book.package}</td>
+                        <td>{book.status}</td>
                         <td>
-                            <button onClick={()=>handleApprove(book._id)} className="btn btn-success">{book.status}</button>
+                            <button onClick={()=>handleApprove(book._id)} className="btn btn-success">Update Status</button>
                         </td>
                         <td>
                             <button onClick={()=>handleDelete(book._id)} className="btn btn-danger">Delete</button>

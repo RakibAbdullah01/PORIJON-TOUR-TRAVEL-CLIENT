@@ -13,7 +13,9 @@ const {user,logOut} = useAuth();
 				<div className="container">
 					<nav className="navbar navbar-expand-lg navbar-light nav-bar">
 						<div className="container-fluid align-items-center">
+							<Link to="/">
 							<img src={logo} alt="" width="180px"/>
+							</Link>
 							<button
 								className="navbar-toggler"
 								type="button"
