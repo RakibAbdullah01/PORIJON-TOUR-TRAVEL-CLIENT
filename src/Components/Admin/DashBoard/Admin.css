@@ -1,0 +1,42 @@
+.admin-area {
+  margin: 5px 0;
+  color: white;
+  height: 100vh;
+  background: #212529;
+  text-align: center;
+  font-size: 2rem;
+}
+/* .admin-area .admin {
+  background-color: turquoise;
+
+} */
+.admin-area .admin h2 {
+  font-size: 3rem;
+}
+.admin-container {
+  overflow-x: hidden;
+}
+.admin-menu {
+  list-style: none;
+  cursor: pointer;
+  margin: 1px 0;
+}
+.admin-menu:hover {
+  color: #fff;
+}
+.all-menu > ul {
+  padding: 0;
+}
+.all-menu > ul > li:hover {
+  margin-bottom: 5px;
+  background-color: var(--orange);
+}
+
+.booking-card {
+  background-color: #ffedcc;
+}
+.text-status {
+  color: orangered;
+  font-weight: bold;
+  font-size: 2rem;
+}

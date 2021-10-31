@@ -1,0 +1,20 @@
+.nav-link {
+  color: #fff;
+}
+.nav-link:focus {
+  color: #fff;
+}
+.nav-link:hover {
+  color: yellow;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+.nav-link,
+.nav-btn {
+  font-size: 1.6rem;
+}

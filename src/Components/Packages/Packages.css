@@ -1,0 +1,48 @@
+.packages .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.packages .box-container .box {
+  flex: 1 1 30rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+.packages .box-container .box img {
+  height: 25rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.packages .box-container .box .content {
+  padding: 2rem;
+}
+
+.packages .box-container .box .content h2 {
+  font-size: 2rem;
+  color: #333 !important;
+}
+
+.packages .box-container .box .content h3 i {
+  color: var(--orange);
+}
+
+.packages .box-container .box .content .price {
+  font-size: 2rem;
+  color: rgb(94, 32, 240);
+  padding-top: 1rem;
+}
+
+.packages .box-container .box .content .price span {
+  color: #666;
+  font-size: 1.5rem;
+  text-decoration: line-through !important;
+}
+.packages .box-container .box .content .item-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

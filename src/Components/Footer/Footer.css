@@ -1,0 +1,15 @@
+.footer {
+  padding: 2%;
+  /* text-align: start; */
+  /* background-color: rgba(245, 248, 248, 0.931); */
+  background-color: #212529;
+  padding-bottom: 0;
+  color: azure;
+}
+.under-footer {
+  text-align: center;
+  align-items: center;
+}
+li {
+  list-style: none;
+}

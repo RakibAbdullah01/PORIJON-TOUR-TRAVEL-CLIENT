@@ -1,0 +1,5 @@
+.bg-img {
+  background-image: url("../../images/Banner.jpg");
+  background-position: center center;
+  background-size: cover;
+}
